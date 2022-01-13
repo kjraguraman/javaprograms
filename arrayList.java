@@ -8,6 +8,7 @@ public class arrayList {
         numbers.add('a');
         numbers.add(1,2.0);
         numbers.remove(0);
+        System.out.println(numbers.contains("hi"));
         System.out.println(numbers);
         Iterator<Integer> i= numbers.iterator();
         while(i.hasNext())

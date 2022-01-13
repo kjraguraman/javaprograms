@@ -9,6 +9,8 @@ public class hashMap {
         names.put(null,1);
         names.put(null,2);
         names.put("Ram",2);
+        System.out.println(names.containsKey("Ragu"));
+        System.out.println(names.containsValue(2));
         System.out.println(names);
 //        Set s=names.entrySet();
 //        Iterator i=s.iterator();

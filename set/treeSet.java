@@ -9,6 +9,7 @@ public class treeSet {
         set.add(1);
         set.add(3);
         set.add(0);
+        //set.add(null);
         System.out.println(set);
         Set set2=set.descendingSet();
         System.out.println(set2);
