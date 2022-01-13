@@ -12,19 +12,28 @@ public class hashCollision {
 //        System.out.println("k1 hascode : "+k1.hashCode());
         map.put(k1,"First value");
 //        System.out.println("k2 hascode : "+k2.hashCode());
+        System.out.println("k1 added");
         map.put(k2,"Second value");
 //        System.out.println("k3 hascode : "+k3.hashCode());
+        System.out.println("k2 added");
         map.put(k3,"Third value");
 //        System.out.println("k4 hascode : "+k4.hashCode());
+        System.out.println("k3 added");
         map.put(k4,"Fourth value");
+        System.out.println("k4 added");
 //        map.put(k5,"Fifth value");
 //        map.put(k6,"Sixth value");
         Set<Map.Entry<myKey,String>> s=map.entrySet();
         for(Map.Entry entry:s){
             System.out.println(entry);
         }
-//        System.out.println(map);
-//        System.out.println("Checking value in Fourth key(k4)");
+//        Set entry=map.entrySet();
+//        Iterator i=entry.iterator();
+//        while (i.hasNext()){
+//            System.out.println(i.next());
+//        }
+        System.out.println(map);
+//        System.out.println("Getting value in Fourth key(k4)");
 //        System.out.println(map.get(k4));
     }
 }
