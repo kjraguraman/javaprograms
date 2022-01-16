@@ -32,10 +32,10 @@ public class synchronizedPractice {
         };
         System.out.println("Thread 1 started");
         t1.start();
-        //System.out.println("Thread 2 started");
+        System.out.println("Thread 2 started");
         t2.start();
         //t1.join();
+        System.out.println("Main thread running...");
         mulTable.table(3);
-        //System.out.println("Main thread running...");
     }
 }
